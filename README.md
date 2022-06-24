@@ -27,3 +27,9 @@ model_encoder.py
 <date-time-2>.pth_encoder
 
 ```
+## Data:
+
+```
+
+datos_clumpy_parm_x.npz - Small datafile with the values for the x-axis in frequency and wavelenght (as they are not evenly spaced for CAT3D-WIND data)
+```
