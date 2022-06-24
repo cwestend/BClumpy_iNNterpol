@@ -36,7 +36,7 @@ datos_clumpy_parm_x.npz - Small datafile with the values for the x-axis in frequ
 
 ## Usage
 
-Just run it in the directory with the above files to obtain the interpolated flux for the 9 different parameters:  
+Just run it in a python environment in the directory with the above files to obtain the interpolated flux for the 9 different parameters:  
 **a** - index of the radial dust cloud distribution power law,   
 **N0** - number of clouds along an equatorial line-of-sight,  
 **h** - dimensionless scale height,  
@@ -48,7 +48,7 @@ Just run it in the directory with the above files to obtain the interpolated flu
 **ang** - angle of line of vision
 
 ```
-% run "./BClumpy_innterpol.py.py"
+% run "./BClumpy_innterpol.py"
 % a = -2.5; N0 = 7.5; h = 0.2; aw = -1.5; theta_w = 45.; theta_sig = 15.; f_wd = 0.6; Rout = 450.; ang = 60.
 % input_val =  np.array((a, N0, h, aw, theta_w, theta_sig, f_wd, Rout, ang))
 
