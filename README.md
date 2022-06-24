@@ -36,4 +36,4 @@ datos_clumpy_parm_x.npz - Small datafile with the values for the x-axis in frequ
 
 ## Usage
 
-Just run it in the directory with the above files
+Just run it in the directory with the above files to obtain the interpolated flux for the different parametes:
