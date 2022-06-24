@@ -33,3 +33,7 @@ model_encoder.py
 
 datos_clumpy_parm_x.npz - Small datafile with the values for the x-axis in frequency and wavelenght (as they are not evenly spaced for CAT3D-WIND data)
 ```
+
+## Usage
+
+Just run it in the directory with the above files
