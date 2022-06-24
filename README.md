@@ -37,14 +37,14 @@ datos_clumpy_parm_x.npz - Small datafile with the values for the x-axis in frequ
 ## Usage
 
 Just run it in the directory with the above files to obtain the interpolated flux for the different parameters:  
-a - index of the radial dust cloud distribution power law,   
-N0 - number of clouds along an equatorial line-of-sight,  
-h - dimensionless scale height,  
-aw - radial distribution of dust clouds in the wind,  
-theta_w - the half-opening angle of the wind,  
-theta_sig - angular width of the wind,  
-f_wd - wind-to-disk ratio, rout - outer radius,  
-ang - angle of line of vision
+**a** - index of the radial dust cloud distribution power law,   
+**N0** - number of clouds along an equatorial line-of-sight,  
+**h** - dimensionless scale height,  
+**aw** - radial distribution of dust clouds in the wind,  
+**theta_w** - the half-opening angle of the wind,  
+**theta_sig** - angular width of the wind,  
+**f_wd** - wind-to-disk ratio, rout - outer radius,  
+**ang** - angle of line of vision
 
 ```
 % run "./BClumpy_innterpol.py.py"
