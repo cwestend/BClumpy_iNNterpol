@@ -7,7 +7,7 @@ configuration to be able to cope with the deeper layer configuration.
 
 
 The code is provided together with the trained weights of the CAE used and NN in order to be able to rapidly
-reconstruct each model atmosphere. 
+reconstruct each model flux for the corresponding parameters. 
 
 
 # Requirements:
