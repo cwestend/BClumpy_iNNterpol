@@ -43,6 +43,6 @@ Just run it in the directory with the above files to obtain the interpolated flu
 % a = -2.5; N0 = 7.5; h = 0.2; aw = -1.5; theta_w = 45.; theta_sig = 15.; f_wd = 0.6; rout = 450.; ang = 60.
 % input_val =  np.array((a, N0, h, aw, theta_w, theta_sig, f_wd, rout, ang))
 
-% nn_innterp, x_freq, x_lam = innterpol(input_val)
+% flux_innterp, x_freq, x_lam = innterpol(input_val)
 
 ```
