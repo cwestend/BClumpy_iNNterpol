@@ -1,10 +1,13 @@
 # BClumpy_iNNterpol
-Neural Network interpolation over CAT3D-WIND AGN torus models for the new improved BayesClumpy 
+Neural Network interpolation over CAT3D-WIND AGN torus models for the new improved BayesClumpy.
 
-We trained a new Neural Network over the more than 124k models of CAT3D-WIND (see http://cat3d.sungrazer.org/)
+We trained a new Neural Network (NN) over the more than 124k models of CAT3D-WIND (see http://cat3d.sungrazer.org/)
 in the manner of https://github.com/cwestend/iNNterpol but adding a Residual Network (ResNet)
 configuration to be able to cope with the deeper layer configuration.
 
+To reduce the dimensionality of the data (torus flux models in 105 points in wavelength) we first applied a Convolutional
+Auto Encoder (CAE) with a bottleneck of 32 neurons. On the resulting 32 embeddings we then trained a custom NN. This
+custom NN consists of 32 layers, each with 128 neurons, fully connected and propagating the residuals skipping 2 layers. 
 
 The code is provided together with the trained weights of the CAE used and NN in order to be able to rapidly
 reconstruct each model flux for the corresponding parameters. 
@@ -44,7 +47,7 @@ Just run it in a python environment in the directory with the above files to obt
 **theta_w** - the half-opening angle of the wind,  
 **theta_sig** - angular width of the wind,  
 **f_wd** - wind-to-disk ratio, rout - outer radius,  
-**Rout** - outer radius
+**Rout** - outer radius  
 **ang** - angle of line of vision
 
 ```
