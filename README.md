@@ -46,7 +46,7 @@ Just run it in a python environment in the directory with the above files to obt
 **aw** - radial distribution of dust clouds in the wind,  
 **theta_w** - the half-opening angle of the wind,  
 **theta_sig** - angular width of the wind,  
-**f_wd** - wind-to-disk ratio, rout - outer radius,  
+**f_wd** - wind-to-disk ratio,    
 **Rout** - outer radius  
 **ang** - angle of line of vision
 
