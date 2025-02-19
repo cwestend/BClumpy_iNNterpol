@@ -1,5 +1,6 @@
 # BClumpy_iNNterpol
 Neural Network interpolation over CAT3D-WIND AGN torus models for the new improved BayesClumpy v2.0.
+
 -- see https://github.com/aasensio/bayesclumpy2
 
 We trained a new Neural Network (NN) over the more than 124k models of CAT3D-WIND (see http://cat3d.sungrazer.org/) of H\”onig, S. F., & Kishimoto, M. 2017, ApJ, 838, L20 (https://iopscience.iop.org/article/10.3847/2041-8213/aa6838) in the manner of https://github.com/cwestend/iNNterpol but adding a Residual Network (ResNet)
