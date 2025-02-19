@@ -18,7 +18,7 @@ the CAT3D-WIND model data and the resulting embedding was encoded using a CAE wi
 Uses the hyperparameter file in .pth format (pyTorch) of both the NN and the CAE, together with the 
 model.py containing the training model and model_encoder.py containing the model CAE. 
 
-Autor: cwestend (https://github.com/cwestend/iNNterpol_BClumpy)
+Autor: cwestend (https://github.com/cwestend/BClumpy_iNNterpol)
 
 """
 
